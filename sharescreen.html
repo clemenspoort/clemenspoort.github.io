@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" 
+        href="sharescreen.ico">
+        <title>ShareScreen Downloads</title>
+        <style>
+            html, body {
+                height: 100%;
+                max-height: 100%;
+                overflow: hidden;
+                /* The image used */
+                background-image: linear-gradient(to bottom right, dodgerblue, lime);
+
+                /* Center and scale the image nicely */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                
+                font-family: Arial, Helvetica, sans-serif;
+                align-content: center;
+                text-align: center;
+            }
+            .contentcard {
+                padding: 20px;
+                border-radius: 20px;
+                opacity: 80%;
+                vertical-align: center;
+                margin: auto;
+                background: white;
+                width: 600px;
+            }
+            .bimg {
+                width: 96px;
+                height: 96px;
+                align-self: center;
+            }
+            .ibtn {
+                margin: 20px;
+                padding: 20px;
+                border-radius: 20px;
+                color: black !important;
+                text-decoration: none !important;
+                font-size: 16pt;
+                font-weight: bold;
+                height: 160px;
+                text-align: center;
+            }
+            .ibtn:hover {
+                background: lightgray;
+            }
+            .ibtn:active {
+                background: gray;
+            }
+            .nolink {
+                color: black !important;
+                text-decoration: none !important;
+            }
+            .center {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="contentcard center">
+            <h1>ShareScreen - Downloads</h1>
+            <table style="margin: auto;">
+                <td>
+                    <a class="nolink" href="https://clemenspoort.github.io/ShareScreen.exe">
+                        <div class="ibtn" href="https://clemenspoort.github.io/ShareScreen.exe">
+                            <p><img class="bimg" src="sharescreen.ico"></img></p>
+                            <p>ShareScreen</p>
+                        </div>
+                    </a>
+                </td>
+                <td>
+                    <a class="nolink" href="https://clemenspoort.github.io/ReceiveScreen.exe">
+                        <div class="ibtn">
+                            <p><img class="bimg" src="receivescreen.ico"></img></p>
+                            <p>ReceiveScreen</p>
+                        </div>
+                    </a>
+                </td>
+            </table>
+        </div>
+    </body>
+</html>
